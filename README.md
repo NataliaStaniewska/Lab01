@@ -1,6 +1,7 @@
 # Nowoczesne technologie Przetwarzania Danych  Lab01
 
 **Zadanie 4 - wersjonowanie**
+
 W projekcie wprowadziłam proste wersjonowanie modeli przez nazwy plików. Zapisany model ma nazwę model_v1.joblib a każda następna jego wersja będzie zapisywana w nowym pliku z wyższym numerem wersji (np. model_v2.joblib, model_v3.joblib), zamiast nadpisywać poprzedni plik.
 
 Numer wersji modelu należy zwiększyć, gdy zmieni się coś istotnego w działaniu modelu, np. zmiany w hiperparametrach, użyty algorytm, dane treningowe, zestaw cech wejściowych albo gdy nowa wersja osiąga wyraźnie lepsze wyniki.
